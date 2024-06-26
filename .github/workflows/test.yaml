@@ -15,6 +15,7 @@ jobs:
       - name: Install tools
         run: |
           python -m pip install --upgrade pip pytest
+          pip install openai
           pip install coverage                           #this is new
 
       - name: Test with unittest
