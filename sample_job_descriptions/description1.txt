@@ -1,0 +1,60 @@
+Staff Software Engineer
+arm
+Austin, TX
+
+Job highlights
+Identified by Google from the original job post
+Qualifications
+• Proven experience in Release management and Release automation of product quality system software
+• Experience in software building and build management – for official downstream software release candidates and formal releases
+• Hands on experience with Yocto SDK
+• “Nice To Have” Skills and Experience:
+• Familiarity with QA of platform software for server platforms
+• Defect triaging and defect management experience of system software releases
+• Familiarity with open-source projects such as Linux Kernel, TF-A, EDK II and OpenBMC
+• Line management experience of diverse team
+Responsibilities
+• You will be working with a distributed team spread across Arm’s worldwide engineering centers
+• Your primary responsibilities will include release engineering and version control of production quality firmware releases
+• Release engineering and branch management for the production firmware releases
+• Providing tested releases of production quality downstream firmware to partners
+• Development of release plans in collaboration with various stakeholders
+• Documentation of release notes and effective communication to internal and external collaborators
+• Management of entire release process, including branch management and all aspects of software version control
+• Development of CI pipelines for downstream firmware release processes
+
+Job description
+Arm has built the world’s most pervasive compute architecture, and we’ve led many of the technology revolutions that impact the day-to-day lives of people everywhere. The Future of Infrastructure is Built on Arm. Now we are building new software teams to take us to the next level.
+
+Technology built on Arm is all around us, from industrial and automotive applications, to the IoT, to the desktop and data center. ‘Wherever Computing Happens’, we need to enable Arm by providing software solutions that interface higher-level software stacks with the hardware itself.
+
+Job Overview:
+
+Arm is seeking skilled, experienced, and highly motivated release engineering expert to join our Software Engineering group. As a member of the System Solutions team, you will have the opportunity to enable the evolution of Computing Infrastructure using Neoverse CSS. You will be working with a distributed team spread across Arm’s worldwide engineering centers. Your primary responsibilities will include release engineering and version control of production quality firmware releases.
+
+Responsibilities:
+• Release engineering and branch management for the production firmware releases.
+• Providing tested releases of production quality downstream firmware to partners.
+• Development of release plans in collaboration with various stakeholders.
+• Documentation of release notes and effective communication to internal and external collaborators
+• Management of entire release process, including branch management and all aspects of software version control.
+• Development of CI pipelines for downstream firmware release processes.
+
+Are you are looking for a unique opportunity to be part of a Firmware release team transforming computing infrastructure landscape? We would like to hear from you!
+
+Required Skills and Experience:
+• Proven experience in Release management and Release automation of product quality system software.
+• Experience in software building and build management – for official downstream software release candidates and formal releases.
+• Hands on experience with Yocto SDK.
+
+“Nice To Have” Skills and Experience:
+• Familiarity with QA of platform software for server platforms.
+• Defect triaging and defect management experience of system software releases.
+• Familiarity with open-source projects such as Linux Kernel, TF-A, EDK II and OpenBMC.
+• Line management experience of diverse team.
+
+In Return:
+
+Arm Neoverse is the foundation for the next era of digital infrastructure. This role provides an outstanding opportunity to develop and contribute to the success of Arm Neoverse CSS based solutions.
+
+Arm is an equal opportunity employer, committed to providing an environment of mutual respect where equal opportunities are available to all applicants and colleagues. We are a diverse organization of resolute and innovative individuals, and do not discriminate based on any characteristic.
