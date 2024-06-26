@@ -13,6 +13,7 @@ ResumeGPT utilizes Python to read the text files provided by the user. Through c
   attempting to run resumeGPT
     ```
     pip install openai
+    pip install pypdf
     ```
 * Make an OpenAI Account, and create an API key. Note that
   you might have to put some money in your account to 

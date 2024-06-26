@@ -1,14 +1,17 @@
 import os
 import openai
 from openai import OpenAI
+from pypdf import PdfReader
 
 
 # Ask user for a resume file; read the text from the resume file
 def read_resume(file_name):
     resume_txt = None
     try:
-        with open(file_name, "r") as file:
-            resume_txt = file.read()
+        reader = PdfReader(file_name)
+        resume_txt = ""
+        for i in range(len(reader.pages)):
+            resume_txt += reader.pages[i].extract_text()
     finally:
         return resume_txt
 
@@ -24,7 +27,7 @@ def read_job_desc(file_name):
 
 
 if __name__ == "__main__":
-    resume_file_name = input("Enter the file path to your resume: ")
+    resume_file_name = input("Enter the file path to your resume (pdf): ")
     job_file_name = input("Enter the file path to your job description: ")
 
     resume = read_resume(resume_file_name)
