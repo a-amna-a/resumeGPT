@@ -1,4 +1,4 @@
-import os 
+import os
 import openai
 from openai import OpenAI
 
@@ -16,8 +16,10 @@ client = OpenAI(
 completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
-        {"role": "system", "content": "You are a university instructor and can explain programming concepts clearly in a few words."},
-        {"role": "user", "content": "What are the advantages of pair programming?"}
+        {"role": "system", "content": "You are a university \
+            and can explain programming concepts clearly in a few words."},
+        {"role": "user", "content": "What are the advantages of pair \
+            programming?"}
     ]
 )
-print(completion.choices[0].message.content) 
+print(completion.choices[0].message.content)
