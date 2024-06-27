@@ -18,6 +18,8 @@ jobs:
           pip install openai
           pip install coverage                           #this is new
           pip install pypdf
+          pip install pandas
+          pip install sqlalchemy
 
       - name: Test with unittest
         run: python3 -m unittest tests.py
