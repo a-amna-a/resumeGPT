@@ -29,11 +29,11 @@ def read_job_desc(file_name):
 
 
 def prompt_resume():
-    user_answer = input("Do you want to use a previous resume (p) or upload a \
-                         new resume (n)? ")
+    user_answer = input("Do you want to use a previous resume (p) or upload a "
+                        "new resume (n)? ")
     if user_answer == "n":
-        resume_content = read_resume(input("Enter the file path to your \
-                                            resume (pdf): "))
+        resume_content = read_resume(input("Enter the file path to your "
+                                           "resume (pdf): "))
         # If the file path is bogus, just exit
         if resume_content is None:
             print("Invalid File. Please Try again.")
@@ -95,9 +95,9 @@ if __name__ == "__main__":
 
     client = OpenAI(api_key=my_api_key)
 
-    ROLE_STRING = "You provide resume services for job applicants. \
-                You can provide resume scores for candidates and give them \
-                valuable feedback."
+    ROLE_STRING = "You provide resume services for job applicants. " \
+                  "You can provide resume scores for candidates and give " \
+                  "them valuable feedback."
 
     msgs = [
         {
@@ -106,10 +106,10 @@ if __name__ == "__main__":
         },
         {
             "role": "user",
-            "content": "I have a job description and a resume. \
-                        Can you give me a score from 1 to 100 on how \
-                        qualified I am for the job? Can you only provide the \
-                        score out of 100 and no other feedback."
+            "content": "I have a job description and a resume. "
+                       "Can you give me a score from 1 to 100 on how "
+                       "qualified I am for the job? Can you only provide the "
+                       "score out of 100 and no other feedback."
         },
         {
             "role": "user",
@@ -134,8 +134,8 @@ if __name__ == "__main__":
 
     msgs.append({
             "role": "user",
-            "content": "Can you provide me some feedback on how to improve my \
-            resume for this job?"
+            "content": "Can you provide me some feedback on how to improve my "
+            "resume for this job?"
     })
 
     completion = client.chat.completions.create(
