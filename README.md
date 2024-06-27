@@ -9,6 +9,11 @@ ResumeGPT utilizes Python to read the text files provided by the user. Through c
 
 ## Dependencies Required
 * Have Python 3.7.1 or newer installed
+* Have sqlite3 installed
+  If you do not have it installed already, run the following in your terminal
+  ```
+  sudo apt install sqlite3
+  ```
 * Make sure to run the following on your terminal before
   attempting to run resumeGPT
     ```
