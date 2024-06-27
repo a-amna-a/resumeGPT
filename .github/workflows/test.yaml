@@ -17,6 +17,7 @@ jobs:
           python -m pip install --upgrade pip pytest
           pip install openai
           pip install coverage                           #this is new
+          pip install pypdf
 
       - name: Test with unittest
         run: python3 -m unittest tests.py
